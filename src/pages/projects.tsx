@@ -1,10 +1,12 @@
 import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
+import Seo from '@/components/Seo';
 
 const Projects = () => {
   return (
     <Layout>
+      <Seo templateTitle='Projects' />
       <main>
         <section className='bg-white'>
           <div className='flex min-h-screen flex-col items-center justify-center text-center text-black'>
@@ -15,5 +17,4 @@ const Projects = () => {
     </Layout>
   );
 };
-
 export default Projects;
