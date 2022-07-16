@@ -5,7 +5,13 @@ import Layout from '@/components/layout/Layout';
 const Projects = () => {
   return (
     <Layout>
-      <>Test Projects</>
+      <main>
+        <section className='bg-white'>
+          <div className='flex min-h-screen flex-col items-center justify-center text-center text-black'>
+            Test Projects
+          </div>
+        </section>
+      </main>
     </Layout>
   );
 };
