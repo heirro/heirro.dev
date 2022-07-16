@@ -13,7 +13,7 @@ const defaultMeta = {
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'images/logo-seo.png',
+  image: '/images/logo-seo.png',
 };
 
 type SeoProps = {
