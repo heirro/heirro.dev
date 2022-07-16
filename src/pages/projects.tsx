@@ -3,7 +3,7 @@ import * as React from 'react';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-const Projects = () => {
+export default function Projects() {
   return (
     <Layout>
       <Seo templateTitle='Projects' />
@@ -17,4 +17,3 @@ const Projects = () => {
     </Layout>
   );
 };
-export default Projects;
