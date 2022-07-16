@@ -128,7 +128,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnstyledLink href='/'>Internal Links</UnstyledLink>
-                  <UnstyledLink href='https://theodorusclarence.com'>
+                  <UnstyledLink href='https://heirrolab.my.id'>
                     Outside Links
                   </UnstyledLink>
                 </div>
@@ -141,7 +141,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <PrimaryLink href='/'>Internal Links</PrimaryLink>
-                  <PrimaryLink href='https://theodorusclarence.com'>
+                  <PrimaryLink href='https://heirrolab.my.id'>
                     Outside Links
                   </PrimaryLink>
                 </div>
@@ -154,7 +154,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnderlineLink href='/'>Internal Links</UnderlineLink>
-                  <UnderlineLink href='https://theodorusclarence.com'>
+                  <UnderlineLink href='https://heirrolab.my.id'>
                     Outside Links
                   </UnderlineLink>
                 </div>
@@ -193,36 +193,27 @@ export default function ComponentsPage() {
                   Button styled link with 3 variants.
                 </p>
                 <div className='flex flex-wrap gap-2'>
-                  <ButtonLink
-                    variant='primary'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='primary' href='https://heirrolab.my.id'>
                     Primary Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='outline'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
+                    href='https://heirrolab.my.id'
                   >
                     Outline Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='ghost'
                     isDarkBg={mode === 'dark'}
-                    href='https://theodorusclarence.com'
+                    href='https://heirrolab.my.id'
                   >
                     Ghost Variant
                   </ButtonLink>
-                  <ButtonLink
-                    variant='dark'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='dark' href='https://heirrolab.my.id'>
                     Dark Variant
                   </ButtonLink>
-                  <ButtonLink
-                    variant='light'
-                    href='https://theodorusclarence.com'
-                  >
+                  <ButtonLink variant='light' href='https://heirrolab.my.id'>
                     Light Variant
                   </ButtonLink>
                 </div>

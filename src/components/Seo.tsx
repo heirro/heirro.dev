@@ -5,9 +5,7 @@ import { useRouter } from 'next/router';
 const defaultMeta = {
   title: 'Vava Heirro - Portfolio',
   siteName: 'Vava Heirro - Portfolio',
-  description:
-    'A man of fullstack programmer',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
+  description: 'A man of fullstack programmer',
   url: 'https://heirrolab.my.id',
   type: 'website',
   robots: 'follow, index',
@@ -15,7 +13,7 @@ const defaultMeta = {
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'https://tsnext-tw.thcl.dev/images/large-og.png',
+  image: 'images/log-seoo.png',
 };
 
 type SeoProps = {
@@ -58,7 +56,7 @@ export default function Seo(props: SeoProps) {
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
       <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:site' content='@th_clarence' />
+      <meta name='twitter:site' content='@heirrok' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
       <meta name='twitter:image' content={meta.image} />
@@ -70,11 +68,7 @@ export default function Seo(props: SeoProps) {
             property='og:publish_date'
             content={meta.date}
           />
-          <meta
-            name='author'
-            property='article:author'
-            content='Vava Heirro'
-          />
+          <meta name='author' property='article:author' content='Vava Heirro' />
         </>
       )}
 

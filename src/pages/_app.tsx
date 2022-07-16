@@ -1,4 +1,8 @@
+import { config } from '@fortawesome/fontawesome-svg-core';
 import { AppProps } from 'next/app';
+
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
 
 import '@/styles/globals.css';
 // !STARTERCONF This is for demo purposes, remove @/styles/colors.css import immediately
