@@ -11,6 +11,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 const Home = () => {
   return (
     <>
+    <div className='flex flex-col h-min-screen'>
       <div className='mt-5'>
         <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
           Introduction:
@@ -18,7 +19,7 @@ const Home = () => {
         <div className='prose'>
           <p className='mb-2 justify-start text-base'>
             Hello👋 My name is Vava Heirro. I software engineer and grew up in
-            Indonesia, A graduated from Narotama University study in Informatics
+              Indonesia, A graduated from <UnderlineLink href="https://narotama.ac.id" className='hover:translate-y-0.5'>Narotama University</UnderlineLink> study in Informatics
             Enginnering. Before, I worked as a Data Analyst, General Affair and
             Marketing Manager.
           </p>
@@ -36,7 +37,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className='flex flex-row justify-center'>
+      <div className='flex flex-row justify-center m-5 p-7'>
         <div className='mt-3 mb-4 flex h-10 w-1/2 items-center justify-center border border-solid border-black text-center hover:bg-black hover:text-white'>
           <UnstyledLink
             href='https://heirrolab.my.id/files/cv.pdf'
@@ -160,7 +161,7 @@ const Home = () => {
           <div className='font-semibold'>2014{' - '}2018</div>
         </div>
       </div>
-      <div className='mb-4'>
+      {/* <div className='mb-4'>
         <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
           Education:
         </p>
@@ -194,6 +195,7 @@ const Home = () => {
           </div>
           <div className='font-semibold'>2011{' - '}2014</div>
         </div>
+      </div> */}
       </div>
     </>
   );
