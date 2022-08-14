@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Vava Heirro - Portfolio',
-  siteName: 'Vava Heirro - Portfolio',
+  title: 'Vava Heirro',
+  siteName: 'Vava Heirro',
   description: 'A man of fullstack programmer',
   url: 'https://heirrolab.my.id',
   type: 'website',
@@ -28,7 +28,7 @@ export default function Seo(props: SeoProps) {
     ...props,
   };
   meta['title'] = props.templateTitle
-    ? `${props.templateTitle} | ${meta.siteName}`
+    ? `${meta.siteName} - ${props.templateTitle}`
     : meta.title;
 
   // Use siteName if there is templateTitle
