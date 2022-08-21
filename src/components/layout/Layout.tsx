@@ -19,7 +19,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           {/* HEADER */}
           <div className='flex flex-row content-between border-b-2 border-solid border-black pb-2'>
             <div className='container font-bold'>
-              <p className='border-0 text-xl text-gray-700'>HEIRROLAB.MY.ID</p>
+              <p className='border-0 text-xl text-gray-700'>HEIRRO.EU.ORG</p>
               <p className='border-0 text-xs text-gray-700'>
                 <UnderlineLink href=''>
                   THINK, CODING, AND DEVELOP
