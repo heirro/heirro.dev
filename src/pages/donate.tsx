@@ -10,7 +10,7 @@ const Donate = () => {
       <main>
         <section className='bg-white'>
           <div className='flex min-h-screen flex-col items-center justify-center text-center text-black'>
-            Test Donate
+            COMING SOON
           </div>
         </section>
       </main>

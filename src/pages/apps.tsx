@@ -10,7 +10,7 @@ const Apps = () => {
       <main>
         <section className='bg-white'>
           <div className='flex min-h-screen flex-col items-center justify-center text-center text-black'>
-            Test Apps
+            COMING SOON
           </div>
         </section>
       </main>
