@@ -23,9 +23,6 @@ export default function Index() {
   return (
     <>
       <Seo templateTitle='Home' />
-      <div className='loader-container'>
-        <div className='spinner'></div>
-      </div>
       <Home />
     </>
   );

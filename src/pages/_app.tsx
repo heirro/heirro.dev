@@ -1,5 +1,6 @@
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { AppProps } from 'next/app';
+import NextNProgress from 'nextjs-progressbar';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
 config.autoAddCss = false;
@@ -14,7 +15,14 @@ import '@/styles/colors.css';
  */
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+  <>
+    <NextNProgress 
+        color="#000000"
+    />
+    <Component {...pageProps} />;
+  </>
+  )
 }
 
 export default MyApp;
