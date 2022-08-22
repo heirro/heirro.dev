@@ -31,9 +31,10 @@ export default function Layout(props: { children: React.ReactNode }) {
                 <FontAwesomeIcon
                   icon={faGithub}
                   size='lg'
-                  className='mr-5 text-4xl transition duration-150 hover:-translate-y-1'
+                  className='text-4xl transition duration-150 hover:-translate-y-1'
                 />
               </UnstyledLink>{' '}
+              <div className='mr-5'></div>
               <UnstyledLink href='https://www.linkedin.com/in/heirro/'>
                 <FontAwesomeIcon
                   icon={faLinkedin}

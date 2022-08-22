@@ -45,7 +45,7 @@ const Home = () => {
         </div>
         <div className='m-5 flex flex-row justify-center p-7'>
           <div className='mt-3 mb-4 flex h-10 w-1/2 items-center justify-center border border-solid border-black text-center hover:bg-black hover:text-white'>
-            <UnstyledLink href='./files/cv.pdf' className=''>
+            <UnstyledLink href='/files/cv.pdf' className=''>
               <FontAwesomeIcon
                 icon={faCloudArrowDown}
                 size='lg'
