@@ -70,16 +70,16 @@ const Home = () => {
           </p>
           <div className='mb-3 flex flex-row justify-between'>
             <div>
+              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
+                Full-time
+              </span>
               Full-stack Developer at{' '}
               <UnderlineLink
                 href='https://www.marketjs.com/'
                 className='hover:translate-y-0.5'
               >
                 MarketJS
-              </UnderlineLink>{' '}
-              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
-                Full-time
-              </span>
+              </UnderlineLink>
               <br />
               <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
                 <li>
@@ -89,38 +89,18 @@ const Home = () => {
             </div>
             <div className='font-semibold'>2021{' - '}Present</div>
           </div>
-
           <div className='mb-3 flex flex-row justify-between'>
             <div>
-              NOC Engineer at{' '}
-              <UnderlineLink
-                href='https://indosatooredoo.com/portal/id/bsbusiness'
-                className='hover:translate-y-0.5'
-              >
-                Indosat Ooredoo Business
-              </UnderlineLink>{' '}
               <span className='mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-800 dark:bg-yellow-200 dark:text-yellow-900'>
                 Freelance
               </span>
-              <br />
-              <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
-                <li>Network Engineering, Operations, Security, B2B.</li>
-              </ul>
-            </div>
-            <div className='font-semibold'>2020</div>
-          </div>
-          <div className='mb-3 flex flex-row justify-between'>
-            <div>
               Game Developer at{' '}
               <UnderlineLink
                 href='https://azagatechnology.com/'
                 className='hover:translate-y-0.5'
               >
                 Azaga Creative Technology
-              </UnderlineLink>{' '}
-              <span className='mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-800 dark:bg-yellow-200 dark:text-yellow-900'>
-                Freelance
-              </span>
+              </UnderlineLink>
               <br />
               <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
                 <li>
@@ -132,16 +112,35 @@ const Home = () => {
           </div>
           <div className='mb-3 flex flex-row justify-between'>
             <div>
+              <span className='mr-2 rounded bg-yellow-100 px-2.5 py-0.5 text-xs font-semibold text-yellow-800 dark:bg-yellow-200 dark:text-yellow-900'>
+                Freelance
+              </span>
+              NOC Engineer at{' '}
+              <UnderlineLink
+                href='https://indosatooredoo.com/portal/id/bsbusiness'
+                className='hover:translate-y-0.5'
+              >
+                Indosat Ooredoo Business
+              </UnderlineLink>
+              <br />
+              <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
+                <li>Network Engineering, Operations, Security, B2B.</li>
+              </ul>
+            </div>
+            <div className='font-semibold'>2020</div>
+          </div>
+          <div className='mb-3 flex flex-row justify-between'>
+            <div>
+              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
+                Full-time
+              </span>
               Marketing Stylish at{' '}
               <UnderlineLink
                 href='https://www.levi.co.id/'
                 className='hover:translate-y-0.5'
               >
                 Levi Strauss Indonesia.
-              </UnderlineLink>{' '}
-              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
-                Full-time
-              </span>
+              </UnderlineLink>
               <br />
               <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
                 <li>Data Analyst, B2B Marketing, Retail Marketing.</li>
@@ -151,16 +150,16 @@ const Home = () => {
           </div>
           <div className='mb-3 flex flex-row justify-between'>
             <div>
+              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
+                Full-time
+              </span>
               General Affair at{' '}
               <UnderlineLink
                 href='http://sogo.co.id/'
                 className='hover:translate-y-0.5'
               >
                 Panen Lestari Internusa - SOGO
-              </UnderlineLink>{' '}
-              <span className='mr-2 rounded bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-200 dark:text-green-900'>
-                Full-time
-              </span>
+              </UnderlineLink>
               <br />
               <ul className='ml-6 mt-1 list-disc text-sm font-semibold'>
                 <li>Supply Chain, Warehouse Management.</li>
@@ -205,7 +204,7 @@ const Home = () => {
         </div>
       </div> */}
       </div>
-      </Layout>
+    </Layout>
   );
 };
 export default Home;

@@ -1,4 +1,4 @@
-import Router from 'next/router'
+import Router from 'next/router';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 
@@ -11,22 +11,22 @@ import Home from '@/pages/home';
 // to customize the default configuration.
 
 export default function Index() {
-  const [ ,setLoaded ] = useState(false)
+  const [, setLoaded] = useState(false);
   useEffect(() => {
-    const { pathname } = Router
+    const { pathname } = Router;
     if (pathname == '/') {
-      Router.push('/home')
+      Router.push('/home');
     } else {
-      setLoaded(true)
+      setLoaded(true);
     }
   }, []);
   return (
     <>
-    <Seo templateTitle='Home' />
-      <div className="loader-container">
-        <div className="spinner"></div>
+      <Seo templateTitle='Home' />
+      <div className='loader-container'>
+        <div className='spinner'></div>
       </div>
-      <Home/>
+      <Home />
     </>
   );
 }
