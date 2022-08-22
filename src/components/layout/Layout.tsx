@@ -46,7 +46,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex h-10 w-1/2 items-center justify-center border border-l-2 border-solid border-black text-center hover:bg-black hover:text-white'>
-              <UnstyledLink href='/' className=''>
+              <UnstyledLink href='/home' className=''>
                 <FontAwesomeIcon icon={faHouse} size='lg' className='mr-2' />
                 Home
               </UnstyledLink>

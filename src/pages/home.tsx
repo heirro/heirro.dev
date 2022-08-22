@@ -5,12 +5,15 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
+import Layout from '@/components/layout/Layout';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
+import Seo from '@/components/Seo';
 
 const Home = () => {
   return (
-    <>
+    <Layout>
+      <Seo templateTitle='Home' />
       <div className='h-min-screen flex flex-col'>
         <div className='mt-5'>
           <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
@@ -202,7 +205,7 @@ const Home = () => {
         </div>
       </div> */}
       </div>
-    </>
+      </Layout>
   );
 };
 export default Home;
