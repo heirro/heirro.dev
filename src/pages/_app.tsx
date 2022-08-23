@@ -23,6 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     router.events.on('routeChangeStart', () =>  nProgress.start());
     router.events.on('routeChangeComplete', () =>  nProgress.done());
     router.events.on('routeChangeError', () =>  nProgress.done());
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <Component {...pageProps} />;
