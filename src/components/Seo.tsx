@@ -29,7 +29,7 @@ export default function Seo(props: SeoProps) {
   };
   meta['title'] = props.templateTitle
     ? `${meta.siteName} | ${props.templateTitle} - heirro.eu.org`
-    : `${meta.title} - heirro.eu.org`; ;
+    : `${meta.title} - heirro.eu.org`;
 
   // Use siteName if there is templateTitle
   // but show full title if there is none

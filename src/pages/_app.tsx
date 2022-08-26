@@ -1,7 +1,7 @@
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
-import nProgress from "nprogress";
+import nProgress from 'nprogress';
 import { useEffect } from 'react';
 
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -20,10 +20,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
-    router.events.on('routeChangeStart', () =>  nProgress.start());
-    router.events.on('routeChangeComplete', () =>  nProgress.done());
-    router.events.on('routeChangeError', () =>  nProgress.done());
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    router.events.on('routeChangeStart', () => nProgress.start());
+    router.events.on('routeChangeComplete', () => nProgress.done());
+    router.events.on('routeChangeError', () => nProgress.done());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <Component {...pageProps} />;

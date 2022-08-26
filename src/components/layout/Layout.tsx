@@ -8,7 +8,6 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
-import UnderlineLink from '@/components/links/UnderlineLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 export default function Layout(props: { children: React.ReactNode }) {
@@ -21,9 +20,7 @@ export default function Layout(props: { children: React.ReactNode }) {
             <div className='container font-bold'>
               <p className='border-0 text-xl text-gray-700'>HEIRRO.EU.ORG</p>
               <p className='border-0 text-xs text-gray-700'>
-                <UnderlineLink href=''>
                   THINK, CODING, AND DEVELOP
-                </UnderlineLink>
               </p>
             </div>
             <div className='flex flex-row justify-between text-right'>
