@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/next-script-for-ga */
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 import nProgress from 'nprogress';
 import { useEffect } from 'react';
 
@@ -26,7 +28,23 @@ function MyApp({ Component, pageProps }: AppProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=G-RQVKNYBQQ2'
+        strategy='afterInteractive'
+      />
+      <Script id='google-analytics' strategy='afterInteractive'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RQVKNYBQQ2');
+        `}
+      </Script>
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 export default MyApp;

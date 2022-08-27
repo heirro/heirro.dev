@@ -14,12 +14,12 @@ const Home = () => {
   return (
     <Layout>
       <Seo />
-      <div className='h-min-screen flex flex-col'>
+      <div className='flex flex-col'>
         <div className='mt-5'>
           <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
             Introduction:
           </p>
-          <div className='prose'>
+          <div>
             <p className='mb-2 justify-start text-base'>
               Hello👋 My name is Vava Heirro. I software engineer and grew up in
               Indonesia, A graduated from{' '}
@@ -168,41 +168,6 @@ const Home = () => {
             <div className='font-semibold'>2014{' - '}2018</div>
           </div>
         </div>
-        {/* <div className='mb-4'>
-        <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
-          Education:
-        </p>
-        <div className='mb-3 flex flex-row justify-between'>
-          <div>
-            Informatics Engineering at{' '}
-            <UnderlineLink
-              href='https://narotama.ac.id'
-              className='hover:translate-y-0.5'
-            >
-              Narotama University
-            </UnderlineLink>{' '}
-            <span className='mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-800 dark:bg-blue-200 dark:text-blue-800'>
-              Bachelor
-            </span>
-          </div>
-          <div className='font-semibold'>2015{' - '}2019</div>
-        </div>
-        <div className='mb-3 flex flex-row justify-between'>
-          <div>
-            Natural Sciences Major at{' '}
-            <UnderlineLink
-              href='https://www.smayadika13.sch.id/'
-              className='hover:translate-y-0.5'
-            >
-              Yadika 13 - Bekasi
-            </UnderlineLink>{' '}
-            <span className='mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-xs font-semibold text-blue-800 dark:bg-blue-200 dark:text-blue-800'>
-              Senior High School
-            </span>
-          </div>
-          <div className='font-semibold'>2011{' - '}2014</div>
-        </div>
-      </div> */}
       </div>
     </Layout>
   );

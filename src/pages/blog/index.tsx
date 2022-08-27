@@ -3,10 +3,10 @@ import * as React from 'react';
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 
-const Apps = () => {
+const Blog = () => {
   return (
     <Layout>
-      <Seo templateTitle='Apps' />
+      <Seo templateTitle='Blog' />
       <main>
         <section className='bg-white'>
           <div className='flex min-h-screen flex-col items-center justify-center text-center text-black'>
@@ -17,4 +17,5 @@ const Apps = () => {
     </Layout>
   );
 };
-export default Apps;
+
+export default Blog;

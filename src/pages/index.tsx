@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react';
 
 import Seo from '@/components/Seo';
 
-import Home from '@/pages/home';
-
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
@@ -23,7 +21,7 @@ export default function Index() {
   return (
     <>
       <Seo templateTitle='Home' />
-      <Home />
+      {/* <Home /> */}
     </>
   );
 }
