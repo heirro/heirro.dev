@@ -1,6 +1,6 @@
 import {
-  faCloudArrowDown,
   faEnvelope,
+  faFileInvoice
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
@@ -48,13 +48,13 @@ const Home = () => {
         </div>
         <div className='m-5 flex flex-row justify-center p-7'>
           <div className='mt-3 mb-4 flex h-10 w-1/2 items-center justify-center border border-solid border-black text-center hover:bg-black hover:text-white'>
-            <UnstyledLink href='/files/cv.pdf' className=''>
+            <UnstyledLink href='/files/Resume-Vava-Heirro.pdf' className=''>
               <FontAwesomeIcon
-                icon={faCloudArrowDown}
+                icon={faFileInvoice}
                 size='lg'
                 className='mr-2'
               />
-              Download CV
+              Resume
             </UnstyledLink>
           </div>
           <div className='mt-3 mb-4 flex h-10 w-1/2 items-center justify-center border border-solid border-black text-center hover:bg-black hover:text-white'>
