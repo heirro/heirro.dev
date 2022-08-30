@@ -22,7 +22,7 @@ export default function Index() {
   }, []);
   return (
     <>
-      <Seo templateTitle='Home' />
+      <Seo />
       <Home />
     </>
   );

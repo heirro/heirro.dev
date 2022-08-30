@@ -13,7 +13,7 @@ const defaultMeta = {
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: '/images/logo-seo.png',
+  image: 'https://heirro.eu.org/images/logo-seo.png',
 };
 
 type SeoProps = {
@@ -55,7 +55,7 @@ export default function Seo(props: SeoProps) {
       <meta property='og:title' content={meta.title} />
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
-      <meta name='twitter:card' content='summary_large_image' />
+      <meta name='twitter:card' content='https://heirro.eu.org/images/large-og.png' />
       <meta name='twitter:site' content='@heirrok' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />

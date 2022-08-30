@@ -13,7 +13,7 @@ import Seo from '@/components/Seo';
 const Home = () => {
   return (
     <Layout>
-      <Seo />
+      <Seo templateTitle='Home' />
       <div className='flex flex-col'>
         <div className='mt-5'>
           <p className='mb-3 border-b border-solid border-black text-lg font-bold uppercase'>
