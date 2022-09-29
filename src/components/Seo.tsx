@@ -6,7 +6,7 @@ const defaultMeta = {
   title: 'Vava Heirro',
   siteName: 'Vava Heirro',
   description: 'A man of fullstack programmer',
-  url: 'https://heirrolab.my.id',
+  url: 'https://heirro.eu.org',
   type: 'website',
   robots: 'follow, index',
   /**
