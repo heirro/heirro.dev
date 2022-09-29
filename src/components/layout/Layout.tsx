@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
+import NextImage from '@/components/NextImage';
 
 export default function Layout(props: { children: React.ReactNode }) {
   const now = new Date();
@@ -90,8 +91,40 @@ export default function Layout(props: { children: React.ReactNode }) {
           {/* MAIN */}
           <>{props.children}</>
           <div className='mt-2 mb-0 flex flex-row content-between items-center justify-center border-t-2 border-solid border-black py-8'>
-            <p className='border-0 text-sm font-semibold text-gray-700'>
-              Made with ❤️ in Indonesia | Have a good {weekday[now.getDay()]}!
+            <p className='border-0 text-center text-sm font-bold text-gray-700'>
+              POWERED BY{' '}
+              <div className='flex flex-row justify-center'>
+                <div className='mr-2'></div>
+                <NextImage
+                  className='w-100 md:w-10'
+                  src='/images/lightsail.png'
+                  width='50'
+                  height='50'
+                  objectFit='contain'
+                  alt='Lightsail'
+                  title='Lightsail'
+                />{' '}
+                <div className='mr-2'></div>
+                <NextImage
+                  className='w-100 md:w-10'
+                  src='/images/cloudflare.png'
+                  width='100'
+                  objectFit='contain'
+                  height='100'
+                  alt='Cloudflare'
+                  title='Cloudflare'
+                />{' '}
+                <div className='mr-2'></div>
+                <NextImage
+                  className='w-100 md:w-10'
+                  src='/images/github.png'
+                  width='50'
+                  height='50'
+                  objectFit='contain'
+                  alt='Github'
+                  title='Github'
+                />
+              </div>
             </p>
           </div>
           {/* FOOTER */}

@@ -55,7 +55,10 @@ export default function Seo(props: SeoProps) {
       <meta property='og:title' content={meta.title} />
       <meta name='image' property='og:image' content={meta.image} />
       {/* Twitter */}
-      <meta name='twitter:card' content='https://heirro.eu.org/images/large-og.png' />
+      <meta
+        name='twitter:card'
+        content='https://heirro.eu.org/images/large-og.png'
+      />
       <meta name='twitter:site' content='@heirrok' />
       <meta name='twitter:title' content={meta.title} />
       <meta name='twitter:description' content={meta.description} />
