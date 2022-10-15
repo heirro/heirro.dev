@@ -91,7 +91,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           {/* MAIN */}
           <>{props.children}</>
           <div className='mt-2 mb-0 flex flex-row content-between items-center justify-center border-t-2 border-solid border-black py-8'>
-            <p className='border-0 text-center text-sm font-bold text-gray-700'>
+            {/* <p className='border-0 text-center text-sm font-bold text-gray-700'>
               POWERED BY{' '}
               <div className='flex flex-row justify-center'>
                 <div className='mr-2'></div>
@@ -125,7 +125,7 @@ export default function Layout(props: { children: React.ReactNode }) {
                   title='Github'
                 />
               </div>
-            </p>
+            </p> */}
           </div>
           {/* FOOTER */}
         </div>
