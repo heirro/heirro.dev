@@ -9,11 +9,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as React from 'react';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
-import NextImage from '@/components/NextImage';
 
 export default function Layout(props: { children: React.ReactNode }) {
+  // eslint-disable-next-line unused-imports/no-unused-vars
   const now = new Date();
-  const weekday = [
+  /* const weekday = [
     'Sunday',
     'Monday',
     'Tuesday',
@@ -21,7 +21,7 @@ export default function Layout(props: { children: React.ReactNode }) {
     'Thursday',
     'Friday',
     'Saturday',
-  ];
+  ]; */
 
   return (
     <>

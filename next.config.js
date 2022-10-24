@@ -5,6 +5,9 @@ module.exports = {
   },
 
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
 
   // Uncoment to add domain whitelist
   // images: {
