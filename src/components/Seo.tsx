@@ -6,14 +6,14 @@ const defaultMeta = {
   title: 'Vava Heirro',
   siteName: 'Vava Heirro',
   description: 'A man of fullstack programmer',
-  url: 'https://heirro.eu.org',
+  url: 'https://heirro.dev',
   type: 'website',
   robots: 'follow, index',
   /**
    * No need to be filled, will be populated with openGraph function
    * If you wish to use a normal image, just specify the path below
    */
-  image: 'https://heirro.eu.org/images/logo-seo.png',
+  image: 'https://heirro.dev/images/logo-seo.png',
 };
 
 type SeoProps = {
@@ -28,8 +28,8 @@ export default function Seo(props: SeoProps) {
     ...props,
   };
   meta['title'] = props.templateTitle
-    ? `${meta.siteName} | ${props.templateTitle} - heirro.eu.org`
-    : `${meta.title} - heirro.eu.org`;
+    ? `${meta.siteName} | ${props.templateTitle} - heirro.dev`
+    : `${meta.title} - heirro.dev`;
 
   // Use siteName if there is templateTitle
   // but show full title if there is none
@@ -57,7 +57,7 @@ export default function Seo(props: SeoProps) {
       {/* Twitter */}
       <meta
         name='twitter:card'
-        content='https://heirro.eu.org/images/large-og.png'
+        content='https://heirro.dev/images/large-og.png'
       />
       <meta name='twitter:site' content='@heirrok' />
       <meta name='twitter:title' content={meta.title} />
