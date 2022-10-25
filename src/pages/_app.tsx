@@ -30,15 +30,17 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
+    <Script
+            src='https://redacted.heirro.dev/event.js'
+            data-website-id="3faae683-99e9-4c6d-afe0-7ff76a772a88"
+            strategy="lazyOnload"
+            async
+            defer
+          />
       <Script
         src='https://www.googletagmanager.com/gtag/js?id=G-RQVKNYBQQ2'
         strategy='afterInteractive'
       />
-      <Script
-            src='https://redacted.heirro.dev/events.js'
-            data-website-id="b20fc9e9-9c53-4068-9a4b-13afe4e186a0"
-            strategy="lazyOnload"
-          />
       <Script id='google-analytics' strategy='afterInteractive'>
         {`
           window.dataLayer = window.dataLayer || [];
