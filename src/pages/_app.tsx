@@ -34,6 +34,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         src='https://www.googletagmanager.com/gtag/js?id=G-RQVKNYBQQ2'
         strategy='afterInteractive'
       />
+      <Script
+            src='https://redacted.heirro.dev/events.js'
+            data-website-id="259eca53-d0e5-4dd8-99ea-fd614954ee0d"
+            strategy="lazyOnload"
+          />
       <Script id='google-analytics' strategy='afterInteractive'>
         {`
           window.dataLayer = window.dataLayer || [];
