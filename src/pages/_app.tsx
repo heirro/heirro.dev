@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <Script
             src='https://redacted.heirro.dev/events.js'
-            data-website-id="259eca53-d0e5-4dd8-99ea-fd614954ee0d"
+            data-website-id="b20fc9e9-9c53-4068-9a4b-13afe4e186a0"
             strategy="lazyOnload"
           />
       <Script id='google-analytics' strategy='afterInteractive'>
