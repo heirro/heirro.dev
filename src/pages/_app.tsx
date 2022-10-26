@@ -31,8 +31,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
     <Script
-            src='https://redacted.heirro.dev/events'
-            data-website-id="3faae683-99e9-4c6d-afe0-7ff76a772a88"
+            src='https://redacted.heirro.dev/events.js'
+            data-website-id="bb7932b8-1a32-44b2-b5e9-7b4dac4e9153"
             strategy="lazyOnload"
             async
             defer
