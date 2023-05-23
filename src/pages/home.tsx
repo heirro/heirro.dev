@@ -55,7 +55,7 @@ const Home = () => {
             </UnstyledLink>
           </div>
           <div className='mt-3 mb-4 flex h-10 w-1/2 items-center justify-center border border-solid border-black text-center hover:bg-black hover:text-white'>
-            <UnstyledLink href='mailto://heirro@jadalak.com'>
+            <UnstyledLink href='mailto://dirgevel@heirro.dev'>
               <FontAwesomeIcon icon={faEnvelope} size='lg' className='mr-2' />
               Send Email
             </UnstyledLink>

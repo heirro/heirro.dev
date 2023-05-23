@@ -30,13 +30,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-    <Script
-            src='https://redacted.heirro.dev/events.js'
-            data-website-id="bb7932b8-1a32-44b2-b5e9-7b4dac4e9153"
-            strategy="lazyOnload"
-            async
-            defer
-          />
       <Script
         src='https://www.googletagmanager.com/gtag/js?id=G-RQVKNYBQQ2'
         strategy='afterInteractive'

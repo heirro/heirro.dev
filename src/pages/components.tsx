@@ -128,7 +128,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnstyledLink href='/'>Internal Links</UnstyledLink>
-                  <UnstyledLink href='https://heirrolab.my.id'>
+                  <UnstyledLink href='https://heirro.dev'>
                     Outside Links
                   </UnstyledLink>
                 </div>
@@ -141,7 +141,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <PrimaryLink href='/'>Internal Links</PrimaryLink>
-                  <PrimaryLink href='https://heirrolab.my.id'>
+                  <PrimaryLink href='https://heirro.dev'>
                     Outside Links
                   </PrimaryLink>
                 </div>
@@ -154,7 +154,7 @@ export default function ComponentsPage() {
                 </p>
                 <div className='space-x-2'>
                   <UnderlineLink href='/'>Internal Links</UnderlineLink>
-                  <UnderlineLink href='https://heirrolab.my.id'>
+                  <UnderlineLink href='https://heirro.dev'>
                     Outside Links
                   </UnderlineLink>
                 </div>
@@ -193,27 +193,27 @@ export default function ComponentsPage() {
                   Button styled link with 3 variants.
                 </p>
                 <div className='flex flex-wrap gap-2'>
-                  <ButtonLink variant='primary' href='https://heirrolab.my.id'>
+                  <ButtonLink variant='primary' href='https://heirro.dev'>
                     Primary Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='outline'
                     isDarkBg={mode === 'dark'}
-                    href='https://heirrolab.my.id'
+                    href='https://heirro.dev'
                   >
                     Outline Variant
                   </ButtonLink>
                   <ButtonLink
                     variant='ghost'
                     isDarkBg={mode === 'dark'}
-                    href='https://heirrolab.my.id'
+                    href='https://heirro.dev'
                   >
                     Ghost Variant
                   </ButtonLink>
-                  <ButtonLink variant='dark' href='https://heirrolab.my.id'>
+                  <ButtonLink variant='dark' href='https://heirro.dev'>
                     Dark Variant
                   </ButtonLink>
-                  <ButtonLink variant='light' href='https://heirrolab.my.id'>
+                  <ButtonLink variant='light' href='https://heirro.dev'>
                     Light Variant
                   </ButtonLink>
                 </div>
