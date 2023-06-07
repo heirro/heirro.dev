@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
@@ -42,12 +43,14 @@ export default function Seo(props: SeoProps) {
   // });
 
   return (
+    // eslint-disable-next-line @next/next/no-script-component-in-head
     <Head>
       <title>{meta.title}</title>
       <meta name='robots' content={meta.robots} />
       <meta content={meta.description} name='description' />
       <meta property='og:url' content={`${meta.url}${router.asPath}`} />
       <link rel='canonical' href={`${meta.url}${router.asPath}`} />
+      <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6087379701090395"/>
       {/* Open Graph */}
       <meta property='og:type' content={meta.type} />
       <meta property='og:site_name' content={meta.siteName} />
