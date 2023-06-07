@@ -42,7 +42,12 @@ function MyApp({ Component, pageProps }: AppProps) {
           gtag('config', 'G-RQVKNYBQQ2');
         `}
       </Script>
-
+      <Script  
+        async
+        strategy="afterInteractive"
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6087379701090395"
+        crossOrigin="anonymous"
+    />
       <Component {...pageProps} />
     </>
   );
